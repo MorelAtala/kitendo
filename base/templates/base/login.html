@@ -1,0 +1,23 @@
+{% extends 'base/main.html' %}
+{% block content %}
+
+<div class="header-bar">
+  <div class="logo"> <span style="padding-right: 3px;" class="icon">&#9775;</span>kitendo</div>
+    <h1 id="log">Login</h1>
+</div>
+
+<div class="card-body">
+    <form method="POST">
+        {% csrf_token %}
+        {{form.as_p}}
+        <input class="button" type="submit" value="Login">
+    </form>
+    <p>Don't have an account? <a href="{% url 'register' %}">Register</a></p>
+</div>
+
+
+
+
+
+
+{% endblock content %}
