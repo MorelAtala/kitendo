@@ -1,4 +1,4 @@
 # kitendo
-Todo_List App 
+# todo_List App 
 
-Web URL : kitendo.herokuapp.com
+Web URL : www.kitendo.herokuapp.com
